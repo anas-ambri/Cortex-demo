@@ -1,0 +1,65 @@
+-webkit-border-radius arguments,
+-moz-border-radius arguments,
+border-radius arguments,
+box-shadow(),
+-webkit-box-shadow arguments,
+-moz-box-shadow arguments,
+box-shadow arguments,
+transition(),
+-webkit-transition arguments,
+-moz-transition arguments,
+-ms-transition arguments,
+-o-transition arguments,
+transition arguments,
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.container {
+  min-height: 400px;
+}
+.chatboard {
+  min-height: 400px;
+}
+.chat-messages {
+  border: solid 2px #ddd;
+  height: 400px;
+  overflow-y: scroll;
+}
+/*  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6) inset  */
+.chatbox {
+  height: 100px;
+  width: 100%;
+}
+.chatbox > * {
+  min-height: 100%;
+}
+.chatbox > textarea {
+  width: 84.5%;
+}
+.chatbox > button {
+  width: 14.5%;
+}
+.chat-message {
+  width: 100%;
+}
+.chat-message-container {
+  width: 70%;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 10px 5px;
+  box-shadow: 2px 2px 4px #ddd;
+}
+.chat-message.client > .chat-message-container {
+  border-color: #666;
+  text-align: left;
+}
+.chat-message.server > .chat-message-container {
+  border-color: #d0ec45;
+  text-align: right;
+  margin-left: 30%;
+}
