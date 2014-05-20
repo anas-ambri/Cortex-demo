@@ -28,7 +28,7 @@
 	"async": "~0.2.9",
 	"forever": "~0.10.8",
 	"ejs-locals": "~1.0.2",
-	"cortex" : "latest"
+	"cortex-server" : "latest"
     },
     "devDependencies": {
 	"nodemon": "latest",

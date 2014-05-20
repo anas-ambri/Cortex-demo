@@ -1,7 +1,7 @@
 var express = require('express')
 , http = require('http')
 , path = require('path')
-, Cortex = require('cortex');
+, Cortex = require('cortex-server');
 
 var env = process.env.NODE_ENV || 'development';
 var envConfig = require('./config/config.env')[env];
